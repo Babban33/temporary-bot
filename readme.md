@@ -1,5 +1,12 @@
 # Setup
 
+## Create a Telegram bot
+- Open Telegram and search for **BotFather**
+- Start Chat and use `/newbot` command.
+- Follow the instructions to name the bot and provide a username ending with **bot** keyword.
+
+## Create Two Groups and topics inside them and add bot to the groups with admin permissions.
+
 Clone Repository:
 ```bash
 git clone https://github.com/Babban33/temporary-bot.git
