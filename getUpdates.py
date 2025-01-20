@@ -1,5 +1,10 @@
 from telegram import Bot
-BOT_TOKEN = '8038716867:AAE9I3SMEKbvC726HnaXCRbuKwQD8N1j0Rs'
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 bot = Bot(token=BOT_TOKEN)
 updates = bot.get_updates()
 print(updates)

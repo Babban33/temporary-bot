@@ -1,8 +1,11 @@
 import os
 from telegram import Bot
 from telegram.error import TelegramError
+from dotenv import load_dotenv
 
-BOT_TOKEN = '8038716867:AAE9I3SMEKbvC726HnaXCRbuKwQD8N1j0Rs'
+load_dotenv()
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 async def get_chat_info(update):
     chat = update.message.chat
