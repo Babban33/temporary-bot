@@ -51,5 +51,5 @@ ADMIN_USER_ID=<ID>
 
 Run Application:
 ```bash
-python forward.py
+python telegram_topic_forwarder.py
 ```
