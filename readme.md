@@ -1,4 +1,13 @@
+# Internship Assessment
+### **Tasks**
+
+Create a telegram bot that will:
+- Continuously listen to messages sent in `Group A` inside the `Topic 1` thread.
+- Forward the message from `Group A` to `Group B` inside the `Topic 2` thread.
+- Add `/start` and `/stop` commands to the bot such that they can be accessed only by the Admin.
+
 # Setup
+Follow the steps below:
 
 ## Create a Telegram bot
 - Open Telegram and search for **BotFather**
